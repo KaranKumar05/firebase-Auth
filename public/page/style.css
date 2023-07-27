@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.parent nav{
+    background-color: purple;
+    padding: 1em 3em;
+    color: white;
+    border-bottom: 2px solid rgb(51, 0, 51);
+}
+.parent nav h1{
+    font-size: 2em;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+.parent .note{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.parent .note h1{
+    border-bottom: 2px solid black;
+    font-size: 3em;
+    color: purple;
+}
+.parent .note h2{
+    color: rgb(1, 196, 1);
+}
+@media (max-width:624px) {
+    .parent .note h1{
+        border-bottom: 2px solid black;
+        font-size: 2.5em;
+        color: purple;
+    }   
+}
+@media (max-width:524px) {
+    .parent .note h1{
+        border-bottom: 2px solid black;
+        text-align: center;
+        font-size: 2.5em;
+        color: purple;
+    }   
+}

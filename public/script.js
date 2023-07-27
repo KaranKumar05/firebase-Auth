@@ -35,9 +35,9 @@ window.signup = function (e) {
     createUserWithEmailAndPassword(auth, obj.email, obj.password)
         .then(function (success) {
             alert("SignUp Successfully");
+            window.location.href = "./page/index.html"; 
         })
         .catch(function (err) {
             alert("The Email Is already Registered");
         })
 };
-
