@@ -7,12 +7,29 @@
     background-color: purple;
     padding: 1em 3em;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 2px solid rgb(51, 0, 51);
 }
 .parent nav h1{
     font-size: 2em;
     border-bottom: 2px solid white;
     margin-bottom: 10px;
+}
+.parent nav a{
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+    color: purple;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: .5s;
+}
+.parent nav a:hover{
+    background-color: purple;
+    color: white;
+    border: 1px solid white;
 }
 .parent .note{
     display: flex;
